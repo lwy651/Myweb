@@ -5,7 +5,7 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 
 html {
     color: #333;
-    background: #fafafa;
+    background: #fff;
     overflow-y: scroll;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none
@@ -50,17 +50,18 @@ a:active {
 }
 
 .pass-header {
-    background: #FDF9FD;
+    background: #3AB5A7;
     height: 44px;
     width: 100%;
     padding: 0;
     position: relative;
     display: block;
     text-align: center;
-    box-shadow: 0 0 4px rgba(0,0,0,.2)
+    box-shadow: 0 0 4px rgba(0,0,0,.4)
 }
 
 .pass-header-title {
+    color: #f1f2f2;
     line-height: 44px;
     font-size: 16px;
     text-align: center;
@@ -112,7 +113,14 @@ a:active {
 #userinfo-wraps {
     display: block;
     position: absolute;
-    right: 5px;
+    right: 0px;
+    top: 0px
+}
+
+#back-menu{
+    display: block;
+    position: absolute;
+    left: 0px;
     top: 0px
 }
 
@@ -364,6 +372,6 @@ input[type=text],input[type=password],input[type=number],input[type=email],input
 }
 .glyph-icon:before {
     font-size: 20px;
-    color: #555;
+    color: #f1f2f2;
     margin-left: 0;
 }

@@ -8,7 +8,7 @@ router.get('/', async function (ctx, next) {
   	ctx.state = {
     title: '登录'
   	};
-  	await ctx.render('login', {
+  	await ctx.render('test', {
   	});
 })
 

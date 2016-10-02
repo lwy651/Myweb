@@ -3,7 +3,7 @@ var upload = require('../lib/multerUtil');
 
 router.get('/', async function (ctx, next) {
   ctx.state = {
-    title: 'upload'
+    title: '头像上传'
   };
   //ctx.type = 'json';
   //ctx.body = {a:2};
